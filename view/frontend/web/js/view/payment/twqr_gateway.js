@@ -20,7 +20,10 @@ define(
                 component: 'Ecpay_TwqrPaymentGateway/js/view/payment/method-renderer/twqr_gateway'
             }
         );
-        /** Add view logic here if needed */
+        /**
+    * 
+    * Add view logic here if needed 
+    */
         return Component.extend({});
     }
 );

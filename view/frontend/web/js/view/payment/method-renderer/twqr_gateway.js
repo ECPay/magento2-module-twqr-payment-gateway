@@ -11,14 +11,16 @@ define(
     function (Component) {
         'use strict';
 
-        return Component.extend({
-            defaults: {
-                template: 'Ecpay_TwqrPaymentGateway/payment/form'
-            },
+        return Component.extend(
+            {
+                defaults: {
+                    template: 'Ecpay_TwqrPaymentGateway/payment/form'
+                },
 
-            getCode: function() {
-                return 'ecpay_twqr_gateway';
+                getCode: function () {
+                    return 'ecpay_twqr_gateway';
+                }
             }
-        });
+        );
     }
 );
